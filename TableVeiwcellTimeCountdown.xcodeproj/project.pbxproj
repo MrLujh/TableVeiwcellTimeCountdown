@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2EFEB7681F17442B0007074B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7671F17442B0007074B /* main.m */; };
-		2EFEB76B1F17442B0007074B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB76A1F17442B0007074B /* AppDelegate.m */; };
-		2EFEB76E1F17442B0007074B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB76D1F17442B0007074B /* ViewController.m */; };
 		2EFEB7711F17442B0007074B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFEB76F1F17442B0007074B /* Main.storyboard */; };
 		2EFEB7731F17442B0007074B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EFEB7721F17442B0007074B /* Assets.xcassets */; };
 		2EFEB7761F17442B0007074B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFEB7741F17442B0007074B /* LaunchScreen.storyboard */; };
 		2EFEB7811F17442B0007074B /* TableVeiwcellTimeCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7801F17442B0007074B /* TableVeiwcellTimeCountdownTests.m */; };
 		2EFEB78C1F17442B0007074B /* TableVeiwcellTimeCountdownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB78B1F17442B0007074B /* TableVeiwcellTimeCountdownUITests.m */; };
+		2EFEB79F1F1745520007074B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB79B1F1745520007074B /* AppDelegate.m */; };
+		2EFEB7A91F1748570007074B /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7A81F1748570007074B /* CountdownViewController.m */; };
+		2EFEB7AC1F1748A80007074B /* CountdownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7AB1F1748A80007074B /* CountdownTableViewCell.m */; };
+		2EFEB7B01F17494E0007074B /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7AF1F17494E0007074B /* TimeModel.m */; };
+		2EFEB7B71F1750830007074B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFEB7B61F1750830007074B /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +40,6 @@
 /* Begin PBXFileReference section */
 		2EFEB7631F17442B0007074B /* TableVeiwcellTimeCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableVeiwcellTimeCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFEB7671F17442B0007074B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EFEB7691F17442B0007074B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2EFEB76A1F17442B0007074B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EFEB76C1F17442B0007074B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EFEB76D1F17442B0007074B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2EFEB7701F17442B0007074B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EFEB7721F17442B0007074B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EFEB7751F17442B0007074B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,17 @@
 		2EFEB7871F17442B0007074B /* TableVeiwcellTimeCountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableVeiwcellTimeCountdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EFEB78B1F17442B0007074B /* TableVeiwcellTimeCountdownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableVeiwcellTimeCountdownUITests.m; sourceTree = "<group>"; };
 		2EFEB78D1F17442B0007074B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFEB79A1F1745520007074B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EFEB79B1F1745520007074B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EFEB7A71F1748570007074B /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		2EFEB7A81F1748570007074B /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		2EFEB7AA1F1748A80007074B /* CountdownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTableViewCell.h; sourceTree = "<group>"; };
+		2EFEB7AB1F1748A80007074B /* CountdownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTableViewCell.m; sourceTree = "<group>"; };
+		2EFEB7AE1F17494E0007074B /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		2EFEB7AF1F17494E0007074B /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		2EFEB7B21F174BBC0007074B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2EFEB7B51F1750830007074B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		2EFEB7B61F1750830007074B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,10 @@
 		2EFEB7651F17442B0007074B /* TableVeiwcellTimeCountdown */ = {
 			isa = PBXGroup;
 			children = (
-				2EFEB7691F17442B0007074B /* AppDelegate.h */,
-				2EFEB76A1F17442B0007074B /* AppDelegate.m */,
-				2EFEB76C1F17442B0007074B /* ViewController.h */,
-				2EFEB76D1F17442B0007074B /* ViewController.m */,
-				2EFEB76F1F17442B0007074B /* Main.storyboard */,
-				2EFEB7721F17442B0007074B /* Assets.xcassets */,
-				2EFEB7741F17442B0007074B /* LaunchScreen.storyboard */,
-				2EFEB7771F17442B0007074B /* Info.plist */,
+				2EFEB7B11F174BAE0007074B /* PCH */,
+				2EFEB7991F1745520007074B /* AppDelegate */,
+				2EFEB7A11F1748140007074B /* Classes */,
+				2EFEB7B31F17504D0007074B /* Other */,
 				2EFEB7661F17442B0007074B /* Supporting Files */,
 			);
 			path = TableVeiwcellTimeCountdown;
@@ -117,6 +123,10 @@
 		2EFEB7661F17442B0007074B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EFEB76F1F17442B0007074B /* Main.storyboard */,
+				2EFEB7721F17442B0007074B /* Assets.xcassets */,
+				2EFEB7741F17442B0007074B /* LaunchScreen.storyboard */,
+				2EFEB7771F17442B0007074B /* Info.plist */,
 				2EFEB7671F17442B0007074B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +148,77 @@
 				2EFEB78D1F17442B0007074B /* Info.plist */,
 			);
 			path = TableVeiwcellTimeCountdownUITests;
+			sourceTree = "<group>";
+		};
+		2EFEB7991F1745520007074B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB79A1F1745520007074B /* AppDelegate.h */,
+				2EFEB79B1F1745520007074B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2EFEB7A11F1748140007074B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7A31F1748140007074B /* ViewController */,
+				2EFEB7A21F1748140007074B /* View */,
+				2EFEB7AD1F1749360007074B /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EFEB7A21F1748140007074B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7AA1F1748A80007074B /* CountdownTableViewCell.h */,
+				2EFEB7AB1F1748A80007074B /* CountdownTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EFEB7A31F1748140007074B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7A71F1748570007074B /* CountdownViewController.h */,
+				2EFEB7A81F1748570007074B /* CountdownViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2EFEB7AD1F1749360007074B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7AE1F17494E0007074B /* TimeModel.h */,
+				2EFEB7AF1F17494E0007074B /* TimeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EFEB7B11F174BAE0007074B /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7B21F174BBC0007074B /* PrefixHeader.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		2EFEB7B31F17504D0007074B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7B41F17504D0007074B /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2EFEB7B41F17504D0007074B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2EFEB7B51F1750830007074B /* UIView+Frame.h */,
+				2EFEB7B61F1750830007074B /* UIView+Frame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFEB76E1F17442B0007074B /* ViewController.m in Sources */,
-				2EFEB76B1F17442B0007074B /* AppDelegate.m in Sources */,
+				2EFEB7B71F1750830007074B /* UIView+Frame.m in Sources */,
+				2EFEB7A91F1748570007074B /* CountdownViewController.m in Sources */,
+				2EFEB79F1F1745520007074B /* AppDelegate.m in Sources */,
 				2EFEB7681F17442B0007074B /* main.m in Sources */,
+				2EFEB7B01F17494E0007074B /* TimeModel.m in Sources */,
+				2EFEB7AC1F1748A80007074B /* CountdownTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +514,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M422A22FH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TableVeiwcellTimeCountdown/PCH/PrefixHeader.pch";
 				INFOPLIST_FILE = TableVeiwcellTimeCountdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stronguion.cn.TableVeiwcellTimeCountdown;
@@ -442,6 +528,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M422A22FH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TableVeiwcellTimeCountdown/PCH/PrefixHeader.pch";
 				INFOPLIST_FILE = TableVeiwcellTimeCountdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stronguion.cn.TableVeiwcellTimeCountdown;
@@ -518,6 +606,7 @@
 				2EFEB7921F17442B0007074B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFEB7931F17442B0007074B /* Build configuration list for PBXNativeTarget "TableVeiwcellTimeCountdownTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +615,7 @@
 				2EFEB7951F17442B0007074B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EFEB7961F17442B0007074B /* Build configuration list for PBXNativeTarget "TableVeiwcellTimeCountdownUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +624,7 @@
 				2EFEB7981F17442B0007074B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

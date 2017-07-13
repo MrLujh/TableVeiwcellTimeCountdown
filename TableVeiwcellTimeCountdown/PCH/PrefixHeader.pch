@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  TableVeiwcellTimeCountdown
+//
+//  Created by lujh on 2017/7/13.
+//  Copyright © 2017年 lujh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define   CountDownTableViewCell   @"StartTheTimer"
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#import "UIView+Frame.h"
+
+#endif /* PrefixHeader_pch */
